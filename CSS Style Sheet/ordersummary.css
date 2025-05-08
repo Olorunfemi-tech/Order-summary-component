@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+
+div.container {
+  margin: 3rem auto;
+  width: 18rem;
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+img.illustration-image {
+  height: 26.2%;
+  width: 26.2%;
+  margin-top: 1rem;
+  border-radius: 10px 10px 0 0;
+}
+
+div.image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+div.container-summary {
+  height: 23.5rem;
+  width: 24.9%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  background-color: #ffff;
+  color: #000;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: #989ca6;
+}
+
+div.order-summary-wrapper {
+  text-align: center;
+  margin: 30px;
+}
+
+div.annual-plan-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+}
+
+img.music-icon {
+  margin-right: 0;
+}
+
+.span-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.span-item {
+  margin: 2px, 0, 2px, 0;
+}
+
+.description {
+  font-weight: 700;
+}
+
+.price {
+  color: #989ca6;
+  font-weight: 500;
+}
+
+img.music-icon {
+  height: 13%;
+  width: 13%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.span-link {
+  margin-left: auto;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+a.spanlink:hover {
+  text-decoration: none;
+  color: #6c60f4;
+}
+
+div.button-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+button {
+  color: #ffff;
+  background-color: #382ae1;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #6c60f4;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.span-cancel-order {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  color: #989ca6;
+}
+
+.span-cancel-order:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+div.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  margin-top: 130px;
+}
